@@ -1,0 +1,298 @@
+/* Reguły dotyczące strony głównej */
+/* konfiguraccja elementów */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+  padding: 0px;
+  margin: 0px;
+  color: #000000;
+  /*height: 2349px;*/
+}
+
+ul {
+  padding: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.main-menu {
+  border-bottom: 1px solid #ececec;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  letter-spacing: 3px;
+  line-height: 1.1738;
+  text-decoration: none;
+}
+
+.logo-color,
+address ul li a:hover,
+nav ul li a:hover,
+.container li a:hover,
+figcaption a:hover {
+  color: #2196f3;
+}
+
+address ul li a:focus,
+nav ul li a:focus,
+.container li a:focus,
+figcaption a:focus {
+  color: #ff0000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .container {
+  padding-left: 18%;
+  justify-content: space-evenly;
+}
+
+.order-services {
+  height: 300px;
+  background-color: #2f303a;
+  text-align: center;
+  color: #ffffff;
+}
+
+.order-services h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  padding-top: 3%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.order-services button {
+  cursor: pointer;
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+}
+
+nav .navigation,
+ul.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1721;
+}
+
+ul.contacts {
+  color: #757575;
+}
+
+article.container section {
+  padding: 0px 2%;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+article.container section h3 {
+  color: #212121;
+}
+
+article.container section p {
+  color: #757575;
+}
+
+.our-work {
+  flex-direction: column;
+}
+
+.our-work-images figure,
+.our-team-images figure,
+.tiles figure {
+  margin: 0px;
+  padding: 0px 20px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.1719;
+}
+
+.our-work-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.our-work-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.our-team {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-team-title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.our-team-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+figcaption {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
+  text-align: center;
+}
+
+figcaption a {
+  display: block;
+  color: #757575;
+  text-decoration: none;
+}
+
+footer {
+  display: block;
+  background-color: #2f303a;
+  color: #ffffff;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+address ul li {
+  list-style: none;
+  font-style: normal;
+  line-height: 1.714;
+}
+
+.main-menu,
+footer {
+  padding-left: 8%;
+}
+
+.main-menu {
+  padding-top: 2%;
+}
+
+.container-contact li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 60%);
+}
+
+nav .container > li,
+.container > li {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+  list-style: none;
+}
+
+article.container {
+  justify-content: space-evenly;
+  width: fit-content;
+  align-content: center;
+  padding: 40px;
+}
+
+/* portfolio site */
+
+.portfolio-menu-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: auto;
+}
+
+.portfolio-menu-buttons li {
+  padding: 0px 5px;
+}
+
+.portfolio-menu button {
+  /* position: absolute;
+  left: 510px;
+  top: 174px;*/
+  width: 120px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.625;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  color: #212121;
+  border: none;
+}
+
+.portfolio-menu button:hover {
+  border: solid 4px #2196f3;
+  border-radius: 4px;
+}
+
+.portfolio-menu button:active {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-menu ul {
+  list-style: none;
+}
+
+section {
+  padding: 94px 0px;
+}
+
+.tiles {
+  display: flex;
+  flex-direction: row;
+  max-width: 1600px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tiles figure {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.tiles figcaption {
+  max-width: 370px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+.tiles figcaption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.tiles a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  font-style: normal;
+  color: #757575;
+}
